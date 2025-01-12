@@ -1,0 +1,27 @@
+[
+    {
+        "video_url":"./videos/Oo Antava Mawa..Oo Oo Antava Video Song (Telugu) _ Pushpa Songs _ Allu Arjun_ DSP _Sukumar _Samantha.mp4",
+        "video_title": "Oo Antava Mawa..Oo Oo Antava Video Song (Telugu)",
+        "video_thumbnails" : "./Images/OoAntavaOoOoAntava-1.jpg"
+    },
+    {
+        "video_url":"videos/Stranger Things Season 4 _ Official Hindi Trailer _ हिन्दी ट्रेलर.mp4",
+        "video_title": "Stranger Things Season 4 _ Official Hindi Trailer",
+        "video_thumbnails" : "./Images/stranger things.jpg"
+    },
+    {
+        "video_url":"./videos/videoplayback (1).mp4",
+        "video_title": "Hitman | Fateh | sonu sood & Yo yo honey singh",
+        "video_thumbnails" : "./Images/images.jpg"
+    },
+    {
+        "video_url":"./videos/videoplayback (2).mp4",
+        "video_title": "Marco Teaser (Hindi) | Unni Mukundan | Shareef Muhammed | Haneef Adeni | Ravi Basrur",
+        "video_thumbnails" : "./Images/ANI-20240618072321.jpg"
+    },
+    {
+        "video_url":"./videos/videoplayback.mp4",
+        "video_title": "Chhaava Teaser | Vicky Kaushal | Rashmika M | Akshaye K | Dinesh V | Laxman U | 14th Feb 2025",
+        "video_thumbnails" : "./Images/maxresdefault.jpg"
+    }
+]

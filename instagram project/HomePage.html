@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> This is home page</h1>
+</body>
+<script>
+    let userName = localStorage.getItem("userName")
+
+    let h1 = document.createElement("h1");
+    h1.innerHTML=`Welcome to Instagram <br>
+    Dear ${userName}
+    `;
+    document.body.append(h1)
+</script>
+</html>

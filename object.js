@@ -161,3 +161,60 @@ console.log(sunny);
 
 
 
+
+// ========= Constructor ===========
+
+class Student{
+    constructor(para1,para2,para3){
+        console.log(para1);
+        console.log(para2);
+        console.log(para3);
+
+
+        console.log(this);  //current object without key
+
+        this.name =para1;
+        this.age=para2;
+        console.log(this); // current object with 2 keys
+
+        this.course=para3;
+        console.log(this); // current ibject with 3 keys
+        
+        
+        
+    }
+}
+
+let parsa =new Student("parsa",20);
+console.log(parsa);
+let rishi =new Student("rishi",30, "js");
+console.log(rishi);
+let rohan =new Student("rohan",20 ,"mern");
+console.log(rohan);
+let himanshu =new Student("himanshu",20);
+console.log(himanshu);
+
+// =================================
+
+console.log("start");
+
+class employee{
+    constructor(name, age, designation){
+        this.name=name;
+        this.age=age;
+        this.designation=designation;
+    }
+}
+console.log(employee);
+
+let emp1=new employee("userone", 20, "developer");
+console.log(emp1);
+
+let emp2=new employee("usertwo",25,"backend dev");
+console.log(emp2);
+
+console.log("end");
+
+
+
+

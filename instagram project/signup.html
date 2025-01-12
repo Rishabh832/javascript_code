@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="myform">
+       <fieldset>
+        <legend>Signup form</legend>
+        <input type="text" name="UserName" placeholder="Enter Your name" required /><br><br>
+        <input type="text" name="UserEmail" placeholder="Enter Your Email" required /><br><br>
+        <input type="text" name="Userpwd" placeholder="Enter Your Password" required /><br><br>
+        <button type="submit">Signup</button>
+       </fieldset>
+    </form>
+
+    <script>
+        let myform =document.getElementById("myform");
+        console.log(myform);
+
+        myform.addEventListener("submit",e=>{
+            e.preventDefault();
+
+            let UserName=document.getElementsByName("UserName")[0];
+            let UserEmail=document.getElementsByName("UserEmail")[0];
+            let Userpwd=document.getElementsByName("Userpwd")[0];
+
+            console.log(UserName);
+            console.log(UserName.name);
+            console.log(UserName.value);
+            
+            console.log(UserEmail);
+            console.log(UserEmail.name);
+            console.log(UserEmail.value);
+
+            console.log(Userpwd);
+            console.log(Userpwd.name);
+            console.log(Userpwd.value);
+
+            console.log(localStorage);
+            localStorage.setItem("userName",UserName.value);
+            localStorage.setItem("userEmail",UserEmail.value);
+            localStorage.setItem("userpwd",Userpwd.value);
+            window.open("./login.html");
+            console.log(localStorage);
+            
+            
+        });
+        
+    </script>
+</body>
+</html>

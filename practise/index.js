@@ -119,3 +119,7 @@
 //     fact=fact*i
 // }
 // console.log(fact);
+
+var x=10;
+y=x-+1
+alert(y)
